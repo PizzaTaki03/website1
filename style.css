@@ -1,0 +1,37 @@
+body {
+    background-color: aquamarine;
+}
+h1 {
+    text-align: center;
+}
+
+.item {
+    display: block;
+    width: 60%;
+    margin: auto;
+    border: 1px solid black ;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: pink;
+    border-radius: 5px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+.thumbnail {
+    width: 25%;
+    aspect-ratio: 1 / 1;
+    border-radius: 3.5px;
+}
+
+.filename {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.description {
+    font-size: 1.2rem;
+    color: aquamarine;
+}
